@@ -1,0 +1,6 @@
+#使用此命令打包的体积有点大
+pyinstaller --onefile --icon=app.ico --windowed FileRenamer2.1.py
+
+#使用FileRenamer3.5.spec文件打包命令，显著缩小体积
+
+pyinstaller FileRenamer.spec

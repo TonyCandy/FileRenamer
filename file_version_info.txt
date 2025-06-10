@@ -1,0 +1,29 @@
+VSVersionInfo(
+  ffi=FixedFileInfo(
+    filevers=(3, 5, 0, 0),
+    prodvers=(3, 5, 0, 0),
+    mask=0x3f,
+    flags=0x0,
+    OS=0x40004,
+    fileType=0x1,
+    subtype=0x0,
+    date=(0, 0)
+    ),
+  kids=[
+    StringFileInfo(
+      [
+      StringTable(
+        u'080404b0',  # 中文语言代码
+        [StringStruct(u'FileDescription', u'文件批量重命名工具'),
+        StringStruct(u'FileVersion', u'3.5'),
+        StringStruct(u'InternalName', u'FileRenamer'),
+        StringStruct(u'LegalCopyright', u'版权所有 © 2024'),
+        StringStruct(u'OriginalFilename', u'FileRenamer.exe'),
+        StringStruct(u'ProductName', u'文件批量重命名工具'),
+        StringStruct(u'ProductVersion', u'3.5'),
+        StringStruct(u'CompanyName', u'崔铁成'),
+        StringStruct(u'Comments', u'一个强大的文件批量重命名工具')])
+      ]), 
+    VarFileInfo([VarStruct(u'Translation', [2052, 1200])])  # 2052是简体中文
+  ]
+)
